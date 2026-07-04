@@ -1,10 +1,9 @@
 package Models;
 
 import java.util.HashMap;
-import java.util.List;
 
 public  class FamilyBook {
-    private  HashMap<String, Member> book;
+    private static HashMap<String, Member> book;
 
     public FamilyBook(){
         book = new HashMap<>();
